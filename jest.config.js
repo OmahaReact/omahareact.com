@@ -4,6 +4,7 @@ module.exports = {
     "!**/*.d.ts",
     "!**/node_modules/**",
   ],
+  injectGlobals: true,
   moduleDirectories: ["node_modules", "<rootDir>"],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
